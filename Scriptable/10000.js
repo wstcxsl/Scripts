@@ -3,7 +3,7 @@
 // icon-color: green; icon-glyph: mobile;
 const scriptId = '10000'// 此id为本脚本关联配置id，如果要复制多个请修改此id
 const scriptName = '10000'
-var options = {}
+var options = {15397362821}
 options[`lkIsSaveLog${scriptId}`] = true
 options[`lkRunLimitNum${scriptId}`] = 600000
 const $ = new ScriptableToolKit(scriptName, scriptId, options)
